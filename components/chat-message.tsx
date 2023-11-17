@@ -12,7 +12,7 @@ import { UserAvatar } from "@/components/user-avatar";
 import { Button } from "@/components/ui/button";
 
 import OpenAI from "openai";
-let apiKey = "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";
+let apiKey = "nope";
 console.log('api key', apiKey)
 // const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const openai = new OpenAI({ apiKey, dangerouslyAllowBrowser: true });
